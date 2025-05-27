@@ -1,0 +1,60 @@
+  body {
+      background-color: #000000;
+      color: #e50914;
+      font-family: 'Bebas Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header img {
+      width: 100%;
+      height: 460px;
+      object-fit: cover;
+    }
+
+    .intro {
+      padding: 20px;
+      font-size: 1.5em;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .contenido {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .imagen-vertical {
+      width: 300px;
+      height: 550px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .secciones {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      text-align: center;
+    }
+
+    .secciones a {
+      text-decoration: none;
+      color: #e50914;
+      font-size: 2em;
+      transition: color 0.3s;
+    }
+
+    .secciones a:hover {
+      color: white;
+    }
+    footer {
+        background-color: #161616b4;
+        color: #e50914;
+        text-align: center;
+        padding: 20px;
+        font-size: 1em;
+        margin-top: 40px;
+      }
